@@ -1,5 +1,6 @@
-import sys, random
+import sys, random, time
 
+# 3.77 Seconds with 5000 input
 def bubbleSort(array):
     done = False
     temp = 0
@@ -21,9 +22,12 @@ if __name__ == "__main__":
     
     array = []
     
-    for i in range(100):
+    for i in range(5000):
         array.append(random.randint(0, 100))
     
-    print bubbleSort(array)
+    start = time.time()
+    
+    bubbleSort(array)
+    print time.time() - start
     
 

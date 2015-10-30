@@ -1,8 +1,6 @@
-Algorithms
-
-GitHub Flavored Markdown
+Algorithms in Python and C++. 
 ================================
 
-*View my [website](http://eddiegoynes.com).*
+This repo contains algorithm and interview problems.
 
-A repository containing algorithms I've worked with both in classes and for practice.  
+Most Python examples should work in ~~Python 3.~~ 
